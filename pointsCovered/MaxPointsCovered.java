@@ -1,4 +1,4 @@
-package class1;
+package pointsCovered;
 
 import java.util.Arrays;
 import java.util.Scanner;
