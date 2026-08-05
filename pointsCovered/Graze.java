@@ -54,4 +54,12 @@ public class Graze {
         }
         return dp[target] ? "先手" : "后手";
     }
+
+    public static String win(int target) {
+        if (target % 5 == 0 || target % 5 == 2) {
+            return "先手";
+        } else {
+            return "后手";
+        }
+    }
 }
